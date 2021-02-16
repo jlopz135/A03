@@ -28,15 +28,22 @@ Bold each of the Glossary words as you use them.  Bold ONLY the glossary word.
 
 Part 2: Glossary to include these terms in a bulleted list.
 
-**Branch**-
-**Clone**-
-**Commit**-
-**Fetch**-
-**GIT**-
-**Github**-
-**Merge**-
-**Merge Conflict**-
-**Push**-
-**Pull**-
-**Remote**-
-**Repository**-
+**Branch**- essentially a set of code changes with a unique name. Basically your version of code without messing with the master branch. 
+**Clone**- a copy of the repository on your local machine. pulls a full copy of all the repository data
+**Commit**- can be described as a checkpoint or a snapshot of the changes made to code. Often paired with a small description to describe the situation
+**Fetch**- downloads commits, files and refs from a remote repository into local repo. Can see what other contributors have done before implementing into your own code. 
+**GIT**- software that is able to track changes in files, usually used in collaborative source code. Links Webstorm to Github in our situation
+**Github**- Collaborative coding platform with version control. 
+**Merge**- git's method of putting a forked history back together. takes independent lines in a git branch and integrate into a single branch
+**Merge Conflict**- when a file was erased but edits were made to that file by another person or in another branch
+**Push**- grabs changes from Github repository and merges them into local repository
+**Pull**- sends the commit history to local repository to Github
+**Remote**- common repository that team members use to exhange the edits they have made. Usually doesn't provide a file tree of project's current state
+**Repository**- basically where all the projects reside. It's a directory or storage space. often seen as "repo" can keep all types of files in these.
+
+
+**References**:
+- Powerpoint
+- https://www.jetbrains.com/help/webstorm/using-git-integration.html
+- https://guides.github.com/activities/hello-world/
+- https://www.atlassian.com/git/tutorials/syncing/git-fetch
